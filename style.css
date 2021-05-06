@@ -2,6 +2,13 @@ body {
   font-family: monospace;
 }
 
+section {
+  margin: 50px;
+  border: 2px solid;
+  padding: 15px;
+  width: 30%;
+}
+
 #funcionamento {
   color: black;
 }
