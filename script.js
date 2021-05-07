@@ -9,7 +9,7 @@ function criarTarefa() {
     criaLista.innerText = tarefa.value;
     tarefa.value = '';
     listadeTarefa.appendChild(criaLista);
-    // criaLista.addEventListener('click', selectedItem);
+    // criaLista.addEventListener('click', itemSelecionado);
   }
 }
 botao.addEventListener('click', criarTarefa);

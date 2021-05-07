@@ -10,9 +10,21 @@ section {
 }
 
 #funcionamento {
-  color: black;
+  color: #000000;
 }
 
 h1 {
-  color: black;
+  color: #000000;
+}
+
+#texto-tarefa:hover {
+  border-color: #ed145b;
+  transition: 0.5s;
+}
+
+#criar-tarefa:hover {
+  color: #ed145b;
+  background-color: #000000;
+  transition: 0.5s;
+  cursor: pointer;
 }
