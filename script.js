@@ -21,3 +21,14 @@ function criarTarefa() {
   }
 }
 botao.addEventListener('click', criarTarefa);
+
+// cria função para gerar risco na lista 
+function riscaLista (event) {
+  if (event.target.classList.contains('completed')) {
+    event.target.classList.remove('completed');
+  } else {
+    event.target.classList.add('completed');
+  }
+};
+// referência do classList : https://developer.mozilla.org/pt-BR/docs/Web/API/Element/classList 
+// https://www.w3schools.com/jsref/prop_element_classlist.asp
