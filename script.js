@@ -10,8 +10,7 @@ function itemSelecionado(event) {
   event.target.classList.add('mudaDeCor');
 }
 
-
-// cria a lista no hmtl  
+// cria a lista no hmtl
 function criarTarefa() {
   if (tarefa.value !== '') {
     const criaLista = document.createElement('li');
