@@ -28,3 +28,7 @@ h1 {
   transition: 0.5s;
   cursor: pointer;
 }
+
+.mudaDeCor {
+  background-color: rgb(128, 128, 128);
+}
