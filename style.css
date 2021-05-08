@@ -11,10 +11,15 @@ section {
 
 #funcionamento {
   color: rgb(0 , 0 , 0);
+  text-align: justify;
 }
 
 h1 {
   color: rgb(0 , 0 , 0);
+}
+
+#texto-tarefa {
+  width: 97%;
 }
 
 #texto-tarefa:hover {
@@ -35,4 +40,13 @@ h1 {
 
 .completed {
   text-decoration: line-through solid rgb(0 , 0 , 0);  
+}
+
+#titulo {
+  text-align: center;
+}
+#titulo:hover {
+  color: rgb(237 , 20 , 91);
+  background-color: black;
+  text-align: center;
 }
